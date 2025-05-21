@@ -1,0 +1,28 @@
+---
+cluster:
+  name: desktop
+  singleNode: true
+  standalone: true # Please enable it only if you want to make a single-node cluster
+
+# Bare-metal Driver Configuration
+driver:
+  nvidia:
+    gpu:
+      eula: true
+
+# Enable SmartX features
+features:
+  - nvidia.com/gpu
+  - org.ulagbulag.io/cni
+  - org.ulagbulag.io/desktop-environment/vine
+  - org.ulagbulag.io/vm/kubevirt
+
+# Bare-metal Network Configuration
+network:
+  interface:
+    mtu: 1500
+
+  # Upstream dns servers
+  nameservers:
+    ns1: 1.1.1.1
+    ns2: 8.8.8.8

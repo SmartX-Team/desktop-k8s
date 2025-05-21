@@ -1,0 +1,12 @@
+---
+appVersion: org.ulagbulag.io/v1alpha1
+kind: Manifest
+metadata:
+  name: desktop
+spec:
+  group: ops
+  phase: large
+  scale: small
+  users:
+    owners:
+      - Ho Kim <ho.kim@smartx.kr>

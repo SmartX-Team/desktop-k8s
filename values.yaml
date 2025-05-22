@@ -15,7 +15,6 @@ features:
   - nvidia.com/gpu
   - org.ulagbulag.io/cni
   - org.ulagbulag.io/desktop-environment/vine
-  - org.ulagbulag.io/vm/kubevirt
 
 # Bare-metal Network Configuration
 network:

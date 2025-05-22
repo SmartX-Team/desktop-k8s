@@ -9,6 +9,7 @@ driver:
   nvidia:
     gpu:
       eula: true
+      version: 535.230.02
 
 # Enable SmartX features
 features:

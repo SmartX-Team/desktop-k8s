@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-You can make a installation ISO with given command
+You can make an installation ISO with given command
 
 ```bash
 git clone "https://github.com/SmartX-Team/smartx-k8s"

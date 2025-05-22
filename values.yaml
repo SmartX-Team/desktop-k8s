@@ -29,5 +29,5 @@ network:
 vine:
   session:
     nodeSelector:
-      #node-role.kubernetes.io/kiss: Desktop
+      node-role.kubernetes.io/kiss: ControlPlane
       node-role.kubernetes.io/standalone: "true"
